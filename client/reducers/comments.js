@@ -6,7 +6,7 @@ function comments(state = [], action) {
   switch (action.type) {
     case 'ADD_COMMENT':
 
-      break;
+      console.log("yay");
     default:
       return state;
   }
