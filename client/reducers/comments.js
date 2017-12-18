@@ -3,8 +3,13 @@
 // 2. Copy of current state
 
 function comments(state = [], action) {
-  console.log(state, action);
-  return state;
+  switch (action.type) {
+    case 'ADD_COMMENT':
+
+      break;
+    default:
+      return state;
+  }
 }
 
 export default comments;
